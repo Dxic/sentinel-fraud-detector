@@ -75,8 +75,6 @@ async def simulate_critical() -> Dict[str, Any]:
     triggers the KeeperHub workflow's onchain execution immediately,
     without waiting for a real rug-pull pattern to occur on-chain.
 
-    Use this right before/during your presentation so the "execute
-    onchain via KeeperHub" step is guaranteed to fire on cue.
     """
     contract = agent.get_status()["contract_address"] or "0x0000000000000000000000000000000000dEaD"
     simulated_tx_hash = "0xSIMULATED_DEMO_EVENT"
