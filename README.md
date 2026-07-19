@@ -117,6 +117,17 @@ Then open:
 - `http://localhost:8000/status`, raw JSON health check
 - `http://localhost:8000/alerts`, raw JSON alert history
 
+  ## Proof of Onchain Execution
+
+A critical-severity signal triggered the KeeperHub workflow, which executed 
+a real transaction on Sepolia testnet:
+
+- **Transaction Hash:** `0x8885f419170e05ca1d64e3a697be8cefd5a011a126cab7efabd76b87001830fe`
+- **Explorer Link:** https://sepolia.etherscan.io/tx/0x8885f419170e05ca1d64e3a697be8cefd5a011a126cab7efabd76b87001830fe
+- **Status:** Success
+
+![Transaction proof](docs/tx-proof.png)
+
 ## Demoing the Onchain Execution (important for judging)
 
 Real rug-pull-grade correlated signals are rare, you may not get one to fire
