@@ -126,7 +126,7 @@ a real transaction on Sepolia testnet:
 - **Explorer Link:** https://sepolia.etherscan.io/tx/0x8885f419170e05ca1d64e3a697be8cefd5a011a126cab7efabd76b87001830fe
 - **Status:** Success
 
-![Transaction proof](docs/tx-proof.png)
+![Transaction proof](docs/tx-proof2.png)
 
 ## Demoing the Onchain Execution (important for judging)
 
