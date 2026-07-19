@@ -131,12 +131,6 @@ KeeperHub webhook call the real detection path would use, so you get a **real,
 verifiable onchain transaction** on cue, during your presentation, without
 depending on live market conditions.
 
-For your submission, you need:
-1. A short demo video showing this flow end-to-end (detection or simulated event
-   into KeeperHub trigger into dashboard showing "Executed via KeeperHub").
-2. **The transaction hash** from the KeeperHub Run logs (Runs panel in
-   app.keeperhub.com, or in the workflow's execution history), link it in your
-   DoraHacks submission.
 
 ## Run with Docker
 
