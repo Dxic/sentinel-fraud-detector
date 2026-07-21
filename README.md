@@ -208,14 +208,6 @@ that recomputes the HMAC and rejects mismatches). Without that verification
 step, signing still proves intent and gives you an audit trail, but doesn't
 by itself stop an unauthorized POST to the webhook URL.
 
-## Presenting the Safety Story to Judges
-
-Worth stating explicitly during your demo: the KeeperHub action in this
-walkthrough sends the emergency-response transfer to a **safe wallet you
-control**, not a burn/dead address. This is a deliberate choice: the point
-of the "execute onchain" step is fund *recovery*, not fund destruction.
-Emphasizing this distinguishes the agent as thinking about user fund safety
-end-to-end, not just detection theater.
 
 ## Known Limitations / Next Steps
 
